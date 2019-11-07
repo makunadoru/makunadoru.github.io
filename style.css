@@ -1,0 +1,127 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(217,255,242);
+	font-family: gobold;
+	text-align: justify;
+
+}
+.bannerweb{
+	background-color: rgb(217,255,242);
+}
+.menu{
+	background-color: rgb(0,128,128);
+	color: white;
+	text-align: center;
+}
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: orange;
+	font-family: gobold;
+}
+.aktif:hover{
+	background: orange;
+	border-radius: 5px;
+
+}
+.katamenu:hover{
+	color: rgb(0,128,128);
+}
+.katamenu{
+	text-decoration: none;
+	color: orange;
+}
+.konten{
+	width: 80%;
+	color: rgb(110,110,110);
+}
+.kontenlirik{
+	width: 50%;
+	color: rgb(110,110,110);
+}
+.katakeyaki{
+	color: orange;
+	font-family: gobold;
+	text-decoration: none;
+}
+.katakeyaki:hover{
+	color: darkgreen;
+}
+.katahinata{
+	color: orange;
+	font-family: gobold;
+	text-decoration: none;
+}
+.katahinata:hover{
+	color: lightblue;
+}
+.katanogi{
+	color: orange;
+	font-family: gobold;
+	text-decoration: none;
+}
+.katanogi:hover{
+	color: purple;
+}
+.kontenidol{
+	background-color: rgb(217,255,242);
+	text-align: center;
+}
+.kontenidol ul{
+	display: inline-flex;
+	list-style: none;
+}
+.kontenidol ul li{
+	width: 350px;
+	margin: 15px;
+}
+.kontenhome{
+	background-color: rgb(217,255,242);
+	text-align: center;
+}
+.kontenhome ul{
+	display: inline-flex;
+	list-style: none;
+}
+.kontenhome ul li{
+	width: 350px;
+	margin: 15px;
+}
+.kotak1:hover{
+	background: rgb(0,128,128);
+	border-radius: 25px;
+}
+.katakotak1:hover{
+	color: orange;
+}
+.katakotak1{
+	color: rgb(0,128,128);
+	text-decoration: none;
+}
+
+.daleman{
+	display: none;
+}
+.katamenu:hover .daleman{
+	display: block;
+	position: absolute;
+	background: orange;
+	margin: 50px;
+	color: black;
+}
+.menu ul li ul li:hover .daleman ul{
+	display: block;
+	margin: 10px
+}
