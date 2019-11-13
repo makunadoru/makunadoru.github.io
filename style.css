@@ -99,6 +99,14 @@ body{
 	width: 350px;
 	margin: 15px;
 }
+.kontenmember ul{
+	display: inline-flex;
+	list-style: none;
+}
+.kontenmember ul li{
+	width: 100px;
+	margin: 15px;
+}
 .kotak1:hover{
 	background: rgb(0,128,128);
 	border-radius: 25px;
